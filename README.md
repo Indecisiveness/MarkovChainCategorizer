@@ -8,7 +8,7 @@ It contains the values calculated for a given sequence in each model as well as 
 It also has a pointer to the next node in the chain, if one exists.
 
 MarkovModel accepts an integer representing the degree of the desired model and a string representation of the
-input text. It can output the laplace probabilty or a logrithmic representation of the laplace probability for an
+input text. It can output the Laplace probabilty or a logrithmic representation of the Laplace probability for an
 inputted sequence of the appropriate length for the model.
 
 BestModel takes as input an integer representing the desired degree, two strings representing the file names to retrieve
